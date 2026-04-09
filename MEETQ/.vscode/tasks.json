@@ -1,0 +1,193 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install QR Code Dependency",
+			"type": "shell",
+			"command": "npm install qrcode",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Test Git Shell",
+			"type": "shell",
+			"command": "git --version",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Init and Push",
+			"type": "shell",
+			"command": "git init; git add README.md; git commit -m \"first commit\"; git branch -M main; git remote add origin https://github.com/AGENTROS/MEETQ.git; git push -u origin main",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Add README",
+			"type": "shell",
+			"command": "git add README.md",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Commit",
+			"type": "shell",
+			"command": "git commit -m 'first commit'",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Branch Main",
+			"type": "shell",
+			"command": "git branch -M main",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Add Remote",
+			"type": "shell",
+			"command": "git remote add origin https://github.com/AGENTROS/MEETQ.git",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Set Remote URL",
+			"type": "shell",
+			"command": "git remote set-url origin https://github.com/AGENTROS/MEETQ.git",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Push Origin Main",
+			"type": "shell",
+			"command": "git push -u origin main",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Push Origin Main",
+			"type": "shell",
+			"command": "git push -u origin main",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Add All Excluding Env",
+			"type": "shell",
+			"command": "git status --short && git add . && git status --short",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Add All Excluding Env",
+			"type": "shell",
+			"command": "git status --short; git add .; git status --short",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Add All Excluding Env",
+			"type": "shell",
+			"command": "cmd /c \"git status --short && git add . && git status --short\"",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Status",
+			"type": "shell",
+			"command": "git status --short",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Add All",
+			"type": "shell",
+			"command": "git add .",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Commit All",
+			"type": "shell",
+			"command": "git commit -m \"commit all files excluding env\"",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Commit All",
+			"type": "shell",
+			"command": "git commit -m 'commit all files excluding env'",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Commit All",
+			"type": "shell",
+			"command": "git commit -m commit-all-files-excluding-env",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Commit Final 19283",
+			"type": "shell",
+			"command": "git commit -m commitAllFiles",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Git Push Final 19283",
+			"type": "shell",
+			"command": "git push -u origin main",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Check Git Status",
+			"type": "shell",
+			"command": "git status --short",
+			"isBackground": false
+		},
+		{
+			"label": "Commit Name Changes",
+			"type": "shell",
+			"command": "git commit -m \"Update project name from FacultySync to MeetQ\"",
+			"isBackground": false
+		},
+		{
+			"label": "Commit Name Changes",
+			"type": "shell",
+			"command": "git commit -m 'Update project name from FacultySync to MeetQ'",
+			"isBackground": false
+		},
+		{
+			"label": "Commit Name Changes",
+			"type": "shell",
+			"command": "git commit -m \"Update-to-MeetQ\"",
+			"isBackground": false
+		},
+		{
+			"label": "Commit Name Changes",
+			"type": "shell",
+			"command": "cmd /c git commit -m \"Update-to-MeetQ\"",
+			"isBackground": false
+		},
+		{
+			"label": "Commit Changes",
+			"type": "shell",
+			"command": "git commit -m Update-to-MeetQ",
+			"isBackground": false
+		},
+		{
+			"label": "Push to GitHub",
+			"type": "shell",
+			"command": "git push -u origin main",
+			"isBackground": false
+		},
+		{
+			"label": "Install UUID Package",
+			"type": "shell",
+			"command": "npm install uuid @types/uuid",
+			"isBackground": false
+		}
+	]
+}
